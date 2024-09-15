@@ -1,5 +1,7 @@
 # github-release-download-stats
 
+![demo](./demo.png)
+
 Include `script.js` or copy the `getDownloadCounts` function into your code.
 
 ```javascript
