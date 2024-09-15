@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>GitHub Release Download Stats</title>
+  <style>
+    body { font-family: Arial, sans-serif; margin: 20px; }
+    label { display: block; margin-top: 10px; }
+    input[type="text"] { width: 300px; padding: 5px; margin-top: 10px;  }
+    input[type="submit"] { padding: 5px 10px; }
+    #output { margin-top: 20px; }
+    .error { color: red; }
+  </style>
+</head>
+<body>
+  <h1>GitHub Release Download Stats</h1>
+  <form id="repoForm">
+    <label for="username">GitHub Username/Organization:</label>
+    <input type="text" id="username" name="username" value="ipfs" required>
+
+    <label for="repository">Repository Name:</label>
+    <input type="text" id="repository" name="repository" value="ipfs-desktop" required>
+
+    <input type="submit" value="Get Download Stats">
+  </form>
+
+  <div id="output"></div>
+
+  <script src="script.js"></script>
+</body>
+</html>
